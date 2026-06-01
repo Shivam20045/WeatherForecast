@@ -1,0 +1,8 @@
+.DetailCard{
+    border: 1px solid #334155;
+    border-radius: 14px;
+    height:120px;
+    width:252px;
+    padding: 10px;
+    background-color: #111827;
+}

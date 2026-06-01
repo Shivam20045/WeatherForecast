@@ -1,0 +1,9 @@
+.Card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10;
+    Width:100%;
+    /* background-color: aqua; */
+    padding-left: 10px;
+}

@@ -1,0 +1,7 @@
+.Triplet{
+    display: flex;
+    gap:17px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
