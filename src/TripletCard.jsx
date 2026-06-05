@@ -4,7 +4,7 @@ import "./TripletCard.css";
 export default function TripletCard() {
   return (
     <div className="Triplet">
-      <DetailCard props={"1st Card"}/>
+      <DetailCard props={"1st Card."}/>
       <DetailCard props={"2nd Card"}/>
       <DetailCard props={"3rd Card"}/>
     </div>
