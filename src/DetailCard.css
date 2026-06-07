@@ -1,8 +1,40 @@
-.DetailCard{
-    border: 1px solid #334155;
-    border-radius: 14px;
-    height:120px;
-    width:252px;
-    padding: 10px;
-    background-color: #111827;
+.DetailCard {
+  border: 1px solid #334155;
+  border-radius: 14px;
+  height: 120px;
+  width: 252px;
+  padding: 10px;
+  background-color: #111827;
+
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    
+    linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  background-origin: border-box;
+  background-clip: padding-box, padding-box, border-box;
+
+  background-size: cover;
+  background-position: center -50px;
+  box-shadow:
+    1 0 12px rgba(2, 0, 36, 0.2),
+    1 0 20px rgba(0, 212, 255, 0.2);
+}
+.icon {
+  background-color: #334155;
+  border-radius: 50%;
+  width: 26%;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.icondetail {
+  font-size: 20px;
+  margin-right: 18px;
 }

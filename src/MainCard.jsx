@@ -11,7 +11,7 @@ export default function MainCard() {
       <p>Search any city to get real-time weather updates</p>
       <SearchBox />
       <CityName name={"Mumbai"}/>
-      <i className="fa-solid fa-location-dot">India</i>
+      <i className="fa-solid fa-location-dot location">India</i>
       <Temp temp={55} />
     </div>
   );

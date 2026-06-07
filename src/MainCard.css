@@ -37,31 +37,34 @@ background:
     url("./himalaya.png"),
     linear-gradient(
       90deg,
-      rgba(0, 145, 171, 1) 0%,
-      rgba(0, 32, 102, 1) 50%,
-      rgba(93, 0, 94, 1) 100%
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
     );
-  
+
   background-origin: border-box;
   background-clip: padding-box, padding-box, border-box;
 
   background-size: cover;
   background-position: center -50px;
   box-shadow:
-  0 0 12px rgba(0, 145, 171, 0.6),
-  0 0 25px rgba(93, 0, 94, 0.5);
+    0 0 12px rgba(131, 58, 180, 0.2),
+    0 0 25px rgba(252, 176, 69, 0.2);
 
   display: flex;
   flex-direction: column;
   align-items: start;
 }
-.MainCard h3,p,h2,i {
+.MainCard h3,
+p,
+h2,
+i {
   padding-left: 20px;
 }
-.MainCard h3{
+.MainCard h3 {
   color: white;
 }
-.MainCard p{
-  margin-top:-20px ;
+.MainCard p {
+  margin-top: -20px;
   font-size: 10px;
 }
